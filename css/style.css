@@ -1,3 +1,8 @@
+h3{
+    font-size: 1.6em;
+}
+
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -32,6 +37,8 @@ body{
 
 #desc{
     padding-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .section{
@@ -60,6 +67,7 @@ body{
 .eletronics{
     background-color: #FFF;
     color:#282828;
+    overflow: hidden;
 }
 
 .bg-home h1{
@@ -68,7 +76,7 @@ body{
 
 .box {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .box h3{
@@ -97,4 +105,8 @@ body{
 .icon img{
     height: 60%;
     width: auto;
+}
+
+#sobre{
+    overflow: hidden;
 }
