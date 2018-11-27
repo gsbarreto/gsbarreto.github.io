@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-home{
+    background-image: url(/images/city-1.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.bg-center h1{
+    font-size: 5em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #282828;
+}
+
+.bg-center p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #282828;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#desc{
+    padding-top: 20px;
+}
+
+.section{
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo{
+    padding-bottom: 20px;
+}
+
+.img-perfil{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.black{
+    background-color: #282828;
+    color:#FFF;
+}
+
+.eletronics{
+    background-color: #FFF;
+    color:#282828;
+}
+
+.bg-home h1{
+    color: white;
+}
+
+.box {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box h3{
+    text-transform: uppercase;
+}
+
+.box img{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.box span{
+    color: #666666;
+}
+
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.icon img{
+    height: 60%;
+    width: auto;
+}
