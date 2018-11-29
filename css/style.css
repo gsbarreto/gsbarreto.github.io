@@ -110,3 +110,74 @@ body{
 #sobre{
     overflow: hidden;
 }
+
+.post{
+    border-bottom: #28282870 1px solid;
+}
+
+.post:last-child{
+    background-color: red;
+}
+
+.post h2{
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.post h3{
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.post-title {
+    display: block;
+    padding: 0px 20px;
+}
+
+.post-content{
+    padding: 0px 50px;
+}
+
+.post-content img{
+    height: auto;
+    width: 100%;
+}
+
+.post-author{
+ font-size: 1em !important; 
+}
+
+.post-content p{
+    font-size: 1.1em;
+}
+
+.pagination-box{
+    padding: 20px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+button {
+    background-color: #282828 !important;
+}
+
+button:hover {
+    background-color: #282828ec !important;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #282828;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
