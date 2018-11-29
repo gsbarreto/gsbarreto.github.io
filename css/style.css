@@ -181,3 +181,32 @@ button:hover {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.single-post {
+    padding: 20px;
+}
+
+.single-post h2{
+    font-weight: 700;
+    font-size: 2.8em;
+}
+
+.single-post h3{
+    font-size: 1.2em;
+    padding-top: 5px; 
+}
+
+.single-post img{
+    width: 100%;
+    height: auto;
+}
+
+.paragraph-post{
+    padding: 20px 60px;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.post-image{
+    padding: 20px 0px;
+}
