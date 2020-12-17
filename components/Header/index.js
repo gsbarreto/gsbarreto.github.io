@@ -47,8 +47,10 @@ const Logo = styled.a`
   font-family: ${({ theme }) => theme.fonts.secondary};
   font-size: 1.2rem;
   text-decoration: none;
+  margin-left: 1rem;
   b {
     color: ${({ theme }) => theme.colors.secondary};
+    font-weight: 800;
   }
 `;
 
